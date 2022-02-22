@@ -2,7 +2,6 @@
 
 Write an SQL query to report the first name, last name, city, and state of each person in the Person table. If the address of a personId is not present in the Address table, report null instead.
 
-
 Example 1:
 
 Input: 
@@ -31,7 +30,7 @@ Output:
 
 ## Solution
 
-    SELECT firstName, lastName, city, state 
-    FROM PERSON P 
-    LEFT OUTER JOIN ADDRESS A ON P.personId = A.personId
+  SELECT firstName, lastName, city, state 
+  FROM PERSON P 
+  LEFT OUTER JOIN ADDRESS A ON P.personId = A.personId
 
