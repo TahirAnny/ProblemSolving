@@ -21,3 +21,16 @@ public class Solution {
         
     }
 }
+
+//Using Recursion
+
+public class Solution {
+    public int[] RunningSum(int[] nums, int i =1) {
+    
+       if(i == nums.Length ) return nums;
+        
+        nums[i] += nums[i-1];
+        
+        return RunningSum(nums,++i);
+    }
+}
