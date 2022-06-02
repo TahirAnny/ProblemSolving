@@ -25,7 +25,7 @@ public class Solution {
 //Using Recursion
 
 public class Solution {
-    public int[] RunningSum(int[] nums, int i =1) {
+    public int[] RunningSum(int[] nums, int i = 1) {
     
        if(i == nums.Length ) return nums;
         
