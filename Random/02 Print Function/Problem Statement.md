@@ -14,4 +14,4 @@ Source: [Hacker Rank](https://www.hackerrank.com/challenges/python-print/problem
 
     Sample Input 3
     Sample Output 2:
-    123
+    123   
